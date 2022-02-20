@@ -1,9 +1,10 @@
 ---
-title: "prediction_cours8_project"
 author: "Diyana Nanova"
 date: "20/02/2022"
-output: pdf_document
-  #html_document: default
+title: "prediction_cours8_project"
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}

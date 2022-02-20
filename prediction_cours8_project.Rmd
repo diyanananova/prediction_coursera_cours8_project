@@ -133,6 +133,8 @@ Decision Tree Model: 74,14%
 Generalized Boosted Model:  98,67%
 Random Forest Model:  99,63%
 
+The Random Forest Model is with a better accuracy and will be used to make predictions on the 20 data points from the original testing dataset(data_test).
+
 ```{r message=FALSE}
 predict_modell <- as.data.frame(predict(rfm_training, newdata = data_test))
 predict_modell
